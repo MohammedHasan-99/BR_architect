@@ -101,3 +101,9 @@ input{
     text-transform: uppercase;
     text-decoration: none;
 }
+a:hover{
+    background-color: #cfcfcf;
+}
+a{
+    cursor: pointer;
+}
