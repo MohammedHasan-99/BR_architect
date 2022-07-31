@@ -33,4 +33,60 @@ header{
 .head-img{
     max-width: 1500px;
     width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.header{
+
+    color: white;
+    letter-spacing: 4px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.centered-axis-xy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.br{
+    color: white;
+    letter-spacing: 4px;
+    height: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 8px 16px;
+    background-color: #000;
+
+}
+h4{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 !important;
+    padding: 16px 0;
+
+}
+h3{
+    padding: 10px 0;
+    margin: 0 !important;
+}
+h5{
+    padding: 15px 0;
+    margin: 0 !important;
+    opacity: 0.60;
+    
+}
+.contact-btn{
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    
 }
