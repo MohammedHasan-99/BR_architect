@@ -29,6 +29,10 @@ header{
     letter-spacing: 4px;
     height: 100%;
 }
+.menues{
+    display: flex;
+    justify-content: center;
+}
 
 .head-img{
     max-width: 1500px;
@@ -106,4 +110,22 @@ a:hover{
 }
 a{
     cursor: pointer;
+}
+
+#head-descr{
+    font-size: 36px!important;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    text-align: center!important;
+    line-height: 1.5;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 768px) {
+    .menues{
+        display: none;
+    }
+    #head-descr{
+        display: none;
+    }
 }
